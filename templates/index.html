@@ -1,0 +1,232 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+
+  <!-- ======= About Section ======= -->
+
+  <section id="home1" class="about">
+    <div class="container">
+
+      <div class="row">
+
+        <div class="col-lg-6 pt-4 pt-lg-0">
+
+          <img src="{% static 'Elektra_Logo.png' %}" width="320px">
+          <p style="text-align: left;">
+            <br>
+
+            <h3>An Ml Powered <br>Electricity Outage<br> prediction tool</h3>
+            <br>
+
+            To know when and where there is a chance of an electricity outage with real-time monitoring and predicting
+            smart
+            decisions.
+
+            <br>
+            <br>
+
+            <a href="{% url 'login' %}"><button style=" font-weight: 800;
+                font-size: 13px;
+                display: inline-block;
+                padding: 10px 10px 10px 10px;
+                border-radius: 50px;
+                transition: 0.5s;
+                background:#FED103;
+                border-style: none;
+                color: #000;">Know More</button></a>
+          </p>
+
+        </div>
+
+        <div class="col-lg-6">
+          <a href=""><img src="{% static 'header.jpg' %}" class="img-fluid" alt=""></a>
+        </div>
+      </div>
+    </div>
+
+    </div>
+  </section>
+
+  <!--===== End About Section ====== -->
+  <br>
+  <br>
+  <br>
+  <br>
+  <section id="home" class="about">
+    <div class="section-title">
+      <h2>The Problem</h2>
+
+    </div>
+
+    <div class="container">
+
+      <div class="row">
+
+        <div class="col-lg-6 pt-4 pt-lg-0">
+
+          <a href=""><img src="{% static 'home-2.jpg' %}" class="img-fluid" alt=""></a>
+
+          <br>
+          <br>
+
+
+          </p>
+
+        </div>
+
+        <div class="col-lg-6">
+          <p style="font-size: 1.2rem;">In India, there is a problem of Electricity Outage every now and then,
+            especially
+            in some states.
+            So,<b>Elektra</b> is an ML based Web App by which will be use for real-time monitoring of the<b>Electricity
+              Outages</b> in an area and
+            display them in form of maps, Dashboard with pie charts, line graph, etc, where people will be able to
+            report the
+            electricity outages in their area of the city, in response
+            to
+            which the
+            Electricity Department will try to track and solve the fault and we are able to monitor and predict the
+            frequency of
+            Electricity Outage in our area or in any part of the city.
+
+
+          </p>
+        </div>
+      </div>
+    </div>
+
+    </div>
+  </section>
+
+
+  <!-- ======= Featured Section ======= -->
+  <section id="featured1" class="featured">
+    <div class="section-title">
+      <h2>Features</h2>
+
+    </div>
+    <div class="container">
+
+      <div class="row">
+        <div class="col-lg-4">
+          <div class="icon-box">
+            <i class="icofont-computer"></i>
+
+
+            <p>Real-time monitoring with map
+
+            </p>
+          </div>
+        </div>
+        <div class="col-lg-4 mt-4 mt-lg-0">
+          <div class="icon-box">
+            <i class="icofont-dashboard-web"></i>
+
+            <p>Admin / User Dashboard
+            </p>
+          </div>
+        </div>
+        <div class="col-lg-4 mt-4 mt-lg-0">
+          <div class="icon-box">
+            <i class="icofont-bars"></i>
+
+            <p>Analysis of different areas in a city
+            </p>
+          </div>
+        </div>
+
+
+      </div>
+
+    </div>
+    <br>
+    <br>
+
+    <div class="container">
+
+      <div class="row">
+        <div class="col-lg-4">
+          <div class="icon-box">
+            <i class="icofont-chart-pie"></i>
+
+            <p>Analysis of previous data of a city
+
+
+
+            </p>
+          </div>
+        </div>
+        <div class="col-lg-4 mt-4 mt-lg-0">
+          <div class="icon-box">
+            <i class="icofont-bullhorn"></i>
+
+            <p>Announcements by Electricity Board
+            </p>
+          </div>
+        </div>
+        <div class="col-lg-4 mt-4 mt-lg-0">
+          <div class="icon-box">
+            <i class="icofont-tasks-alt"></i>
+
+            <p>Public Feedback
+            </p>
+          </div>
+        </div>
+
+
+      </div>
+
+    </div>
+
+  </section><!-- End Featured Section -->
+
+
+
+
+
+
+
+
+
+  <!-- ======= Featured Section ======= -->
+  <section id="featured" class="featured">
+    <div class="section-title">
+      <h2>Why Us?</h2>
+
+    </div>
+    <div class="container">
+
+      <div class="row">
+        <div class="col-lg-4">
+          <div class="icon-box">
+            <i class="icofont-computer"></i>
+
+            <p>Anyone can easily create an account on our platform & can easily monitor,report & track the
+              Outage activity in their respective area.
+
+            </p>
+          </div>
+        </div>
+        <div class="col-lg-4 mt-4 mt-lg-0">
+          <div class="icon-box">
+            <i class="icofont-image"></i>
+
+            <p>The user’s visual experience of this web application is very unique.We are able to real-time monitor and
+              track the outage.</p>
+          </div>
+        </div>
+        <div class="col-lg-4 mt-4 mt-lg-0">
+          <div class="icon-box">
+            <i class="icofont-tasks-alt"></i>
+
+            <p>Not only for the normal people but, this application is very useful for Industries and Educational
+              Institutions.
+            </p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section><!-- End Featured Section -->
+
+  {% endblock %}

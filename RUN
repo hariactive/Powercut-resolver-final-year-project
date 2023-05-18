@@ -1,0 +1,4 @@
+Make migrations --------------------- python manage.py makemigrations
+Migrate the changes to the database - python manage.py migrate
+Create admin ------------------------ python manage.py createsuperuser
+Run the server ---------------------- python manage.py runserver
